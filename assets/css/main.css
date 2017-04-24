@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #F9F9F9;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+}
+
+.box {
+  width: 525px;
+  height: 295px;
+  background-image: url(../img/coder.jpg);
+  background-size: cover;
+  margin: 9% auto;
+}
+
+.tarjeta {
+  width: 525px;
+  height: 295px;
+  background-color: rgb(60, 60, 59);
+  position: relative;
+  background: -webkit-linear-gradient(-35deg, rgba(60, 60, 59,0) 0%,rgba(60, 60, 59,0) 45%,rgb(60, 60, 59) 30%,rgb(60, 60, 59) 100%);
+}
+
+.title {
+  width: 165px;
+  position: absolute;
+  top: 60px;
+  right: 35px;
+}
+
+.title p {
+  text-align: center;
+}
+
+.name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.datos {
+  width: 200px;
+  position: absolute;
+  bottom: 75px;
+  right: 45px;
+}
+
+.datos span {
+  font-family: helvetica, sans-serif;
+}
+
+.tarjeta .yellow {
+  color: #F2BB27;
+}
+
+#logo {
+  width: 50px;
+  height: 48px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
